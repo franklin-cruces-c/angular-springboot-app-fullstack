@@ -15,7 +15,7 @@ import java.util.List;
 @RestController
 //http://localhost:8080/inventario-app
 @RequestMapping("inventario-app")
-@CrossOrigin(value = "https://localhost:4200")
+@CrossOrigin(value = "http://localhost:4200")
 public class ProductoControlador {
     private static final Logger logger = LoggerFactory.getLogger(ProductoControlador.class);
     @Autowired
